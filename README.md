@@ -1,25 +1,35 @@
-Image Rotator Chrome Extension
-This Chrome extension allows users to rotate all images on a page based on a specified angle. By entering an angle in the extension’s input field, users can rotate images directly in the browser without needing to download or manually adjust them.
+# Extensão Chrome de Rotação de Imagens
 
-Features
-Rotate all images on the current page by a specified angle.
-Quick, on-the-go adjustments for images that load in an inconvenient orientation.
-Getting Started
-Prerequisites
-Google Chrome (latest version recommended)
-Installation
-Clone or Download this repository.
-Open Chrome and navigate to chrome://extensions/.
-Enable Developer Mode by toggling it on in the upper-right corner of the page.
-Click on "Load unpacked" and select the folder containing the extension files.
-Using the Extension
-Open the extension from the Chrome toolbar.
-Enter the desired rotation angle (e.g., -90 for counter-clockwise or 180 for upside-down).
-Click "Rotate Images".
-All images on the current page will rotate based on the specified angle.
-Example
-If you enter -90, all images will rotate 90 degrees counterclockwise. Entering 180 will rotate them 180 degrees.
+Esta extensão para Chrome permite que os usuários rotacionem todas as imagens de uma página com base em um ângulo especificado. Basta inserir o ângulo desejado no campo de entrada da extensão, e as imagens serão rotacionadas diretamente no navegador, sem a necessidade de download ou ajustes manuais.
 
-Troubleshooting
-If the extension does not appear, ensure Developer Mode is enabled and reload the chrome://extensions/ page.
-Ensure that you are entering numeric values in the input field.
+## Funcionalidades
+- Rotaciona todas as imagens na página atual conforme o ângulo especificado.
+- Ajuste rápido e prático para imagens que carregam em uma orientação inconveniente.
+
+## Começando
+
+### Pré-requisitos
+- Google Chrome (última versão recomendada)
+
+### Instalação
+
+1. **Clone ou Baixe** este repositório.
+2. **Abra o Chrome** e navegue até `chrome://extensions/`.
+3. **Ative o Modo de Desenvolvedor** ativando o botão no canto superior direito da página.
+4. **Clique em "Carregar sem compactação"** e selecione a pasta contendo os arquivos da extensão.
+
+### Usando a Extensão
+
+1. **Abra** a extensão na barra de ferramentas do Chrome.
+2. **Insira o ângulo de rotação desejado** (ex.: `-90` para girar 90 graus no sentido anti-horário ou `180` para inverter).
+3. **Clique em "Rotate Images"**.
+4. Todas as imagens da página atual serão rotacionadas conforme o ângulo especificado.
+
+### Exemplo
+
+Se você inserir `-90`, todas as imagens serão rotacionadas 90 graus no sentido anti-horário. Inserindo `180`, elas serão rotacionadas 180 graus.
+
+### Solução de Problemas
+
+- Se a extensão não aparecer, certifique-se de que o Modo de Desenvolvedor está ativado e recarregue a página `chrome://extensions/`.
+- Certifique-se de inserir valores numéricos no campo de entrada.
