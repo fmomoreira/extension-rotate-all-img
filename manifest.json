@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Image Rotator",
+    "version": "1.0",
+    "description": "Rotate all images on a page based on user input",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
